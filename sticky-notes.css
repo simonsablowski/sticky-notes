@@ -1,0 +1,54 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background-color: rgb(255, 255, 255);
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	font-family: arial, helvetica, clean, sans-serif;
+	font-size: 14px;
+	line-height: 1;
+	margin: 0 0 40px;
+}
+
+#canvas {
+	position: relative;
+}
+
+#controls {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 250px;
+	height: 72px;
+	color: transparent;
+}
+
+#controls li {
+	display: inline-block;
+	width: 72px;
+	height: 72px;
+	margin: 0;
+	padding: 0;
+}
+
+#controls a {
+	color: transparent;
+}
+
+#orange {
+	background: url('orange.png') no-repeat;
+}
+
+#green {
+	background: url('green.png') no-repeat;
+}
+
+#pink {
+	background: url('pink.png') no-repeat;
+}
